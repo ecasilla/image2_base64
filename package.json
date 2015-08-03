@@ -1,0 +1,52 @@
+{
+  "name": "image2_base64",
+  "version": "1.0.0",
+  "description": "A file utility that takes a path for an image and converts it into a base64 string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecasilla/image2_base64"
+  },
+  "keywords": [
+    "base64",
+    "png",
+    "jpg",
+    "gif",
+    "converter"
+  ],
+  "author": "Ernie Casilla <ecasilla@icloud.com> (http://www.erniecasilla.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecasilla/image2_base64/issues"
+  },
+  "homepage": "https://github.com/ecasilla/image2_base64",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "debug": "^2.2.0",
+    "fs-extra": "^0.22.1",
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "del": "^1.2.0",
+    "event-stream": "^3.2.1",
+    "gulp": "^3.8.10",
+    "gulp-filesize": "0.0.6",
+    "gulp-inject": "^1.1.1",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-notify": "^2.1.0",
+    "gulp-shell": "^0.4.2",
+    "gulp-util": "^3.0.2",
+    "ink-docstrap": "^0.5.2",
+    "jsdoc": "^3.3.2",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.2.5",
+    "pretty-hrtime": "^1.0.0",
+    "require-dir": "^0.1.0",
+    "sinon": "^1.15.4"
+  }
+}
